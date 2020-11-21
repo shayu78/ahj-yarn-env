@@ -1,0 +1,12 @@
+{
+  "name": "yarn-env",
+  "version": "1.0.0",
+  "description": "Yarn environment",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shayu78/yarn-env.git"
+  },
+  "author": "Alexey Shishkin <shayu78@mail.ru>",
+  "license": "MIT"
+}
