@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -46,6 +47,7 @@ module.exports = {
   entry: './src/index.js',
   plugins: [
     new HtmlWebPackPlugin({
+      title: 'Production',
       template: './src/index.html',
       filename: './index.html',
       favicon: 'src/favicon.ico',
